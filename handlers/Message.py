@@ -13,8 +13,6 @@ class Message:
                 Bot.bot.reply_to(message, template.help(), parse_mode='HTML', disable_web_page_preview=True)
             elif message.text == "/about":
                 Bot.bot.reply_to(message, template.about(), parse_mode='HTML', disable_web_page_preview=True)
-            elif message.text =="/dice":
-                 Bot.bot.reply_to(message,template.)
             else:
                 Bot.bot.reply_to(message, template.error(), parse_mode='HTML', disable_web_page_preview=True)
             pass
